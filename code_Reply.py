@@ -38,7 +38,7 @@ with open('twitter_classification.csv', 'w', newline = '') as output:
                 api.update_status(reply_stat, row['Id'])
             else :
                 classification1 = "Neutral/irrelevant to the movement."
-                reply_stat = "@%s " % (row['ScreenName'])
-                #api.update_status(reply_stat, row['Id'])
+                reply_stat = "@%s Support Women Empowerment #MeToo_Supported #HackFest18_Project" % (row['ScreenName'])
+                api.update_status(reply_stat, row['Id'])
             
             fileOut.writerow([row['Tweets'],classification1])
