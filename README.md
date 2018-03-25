@@ -12,7 +12,7 @@ NOTE- For security purpose, the Twitter API credentials used in the program have
 # -Running the test
 Run the coderun.py program through any python IDE. The program will automatically take out approximately 15 tweets from the Twitter. There wont be any output to see in the terminal. But you will find 2 csv files in the same repository which contains the formatted input and output data.
 
-# -Buit with
+# -Built with
 Python (Spyder IDE)
 Twitter API's
 
