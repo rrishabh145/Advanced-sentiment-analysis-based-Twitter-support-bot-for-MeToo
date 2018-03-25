@@ -1,3 +1,5 @@
+IMPORTANT NOTE:Get the permission from the author to obtain the keys and other credentials or log into your twitter account to get your own personal access keys and other credentials.
+
 # -MeToo-twitter-Advance-sentiment-analysis-and-support
 This project was built by a team of 4 members in the 3rd edition of IIT ISM annual hackathon Hackfest_18 within 36 hours.
 The #MeToo tags on twitter will be used to perform advanced sentiment analysis and provide support to the movement.
