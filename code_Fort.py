@@ -5,10 +5,10 @@ import csv
 from textblob import TextBlob
 
 #taking credentials of our twitter account which will host the app. 
-access_token = "976466107002322945-C2DMgBDvn6ydANQwbcjuYOnYEH5xVri"
-access_token_secret = "pvySqf6pGzQ1UQBvjq9Z8ZXgn2AB6RLWGknZQwBGU0HEx"
-consumer_key = "Y3KCdLNLAuI3mVWTkcyQjoKOt"
-consumer_secret = "vAgi3BTS61HKSWtwg3KT4gRANJ1S3iglXesRHvmVPBo1BHnENK"
+access_token = "976748365231816704-on7uRx0t9It9R2I9LUy6l7jk44qaLaK"
+access_token_secret = "b3LjeN9RTXy1gtqwIRH3z2Oafl4LsNN9oMz2drcusupbK"
+consumer_key = "LIJqYwhbaoEbzuYRHOxdzyIf7"
+consumer_secret = "kmd6C6Rxe4yUCop2ELjrNFti6dRFltq9ZZJRR67sxi7CI2qOaW"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
