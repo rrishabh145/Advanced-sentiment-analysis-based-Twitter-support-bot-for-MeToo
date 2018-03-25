@@ -2,10 +2,16 @@
 import tweepy
 import csv
 
-consumer_key = "sdqTIyouyUnswGfQCxKwgkonk"
-consumer_secret = "g8lx6HnCuSXva3WA3Iy7vpuo8J1JjZzagmZosAL88pXCQVgbAP"
-access_key = "977312693475512323-Gqgcaq10irsLoIQJd12VwpjUO7sLm0T"
-access_secret = "G8MEEGtgQzzmN9jEi9jYV5DAX3yENpMGf0DZdmHLUF7oG"
+#taking credentials of our twitter account which will host the app. 
+#
+#Get the permission from the author to obtain the keys and other credentials or login to 
+#twitter to get your own personal access keys and other credentials
+#
+consumer_key = "put your key here"
+consumer_secret = "put your key here"
+access_key = "put your key here"
+access_secret = "put your key here"
+
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
