@@ -39,6 +39,6 @@ with open('twitter_classification.csv', 'w', newline = '') as output:
             else :
                 classification1 = "Neutral/irrelevant to the movement."
                 reply_stat = "@%s " % (row['ScreenName'])
-                api.update_status(reply_stat, row['Id'])
+                #api.update_status(reply_stat, row['Id'])
             
             fileOut.writerow([row['Tweets'],classification1])
